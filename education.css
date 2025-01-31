@@ -71,6 +71,15 @@ main {
     flex-direction: column;
     background-color: #1b1b1b;
 }
+#arch {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#col1 {
+    width: 60%;
+}
 h3 {
     text-align: left;
     color: #b9bfca;
@@ -84,6 +93,12 @@ main p{
     margin-top: 1.5vh;
     margin-bottom: 1.5vh;
     margin-left: 2vw;
+}
+#col2 {
+    width: 40%;
+}
+#img {
+    max-width: 100%;
 }
 footer{
     background-color: black ;
