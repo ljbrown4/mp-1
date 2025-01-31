@@ -3,7 +3,7 @@
     box-sizing: border-box;
 }
 body {
-    font-family: Arial, sans-serif;
+    font-family: sans-serif, Arial, Helvetica;
 }
 /*Centering the page*/
 #wrapper{
@@ -15,8 +15,8 @@ header{
     display: flex;
     flex-direction: column;
     padding: 1vh 1vw;
-    background-color: black;
-    color: lavender;
+    background-color: #221c19;
+    color: #b9bfca;
     text-align: center;
 }
 /* first 2 columns start */
@@ -25,7 +25,7 @@ header{
     display: flex;
     flex-direction: row;
     position: relative;
-    background-color: darkgray;
+    background-color: #575764;
 }
 nav {
     width: 20%
@@ -41,7 +41,7 @@ nav ul{
 }
 nav li{
     display: flex;
-    color: lavender;
+    color: #b9bfca;
     width: 80%;
     font-size: calc(2px + 1.2vw);
     margin: 5vh auto;
@@ -54,7 +54,7 @@ main {
     width: 80%;
     display: flex;
     flex-direction: column;
-    background-color: snow;
+    background-color: #f4f4f1;
 }
 main p{
     margin: 0 1vw;
@@ -65,7 +65,7 @@ main p{
     margin: 2vw 0;
     text-align: center;
     font-size: calc(10px + 2vw);
-    color: indigo;
+    color: #192236;
 }
 /*2nd 2 columns starts */
 #arch {
@@ -88,8 +88,8 @@ main p{
 }
 /*footer*/
 footer{
-    background-color: black;
-    color: lavender;
+    background-color: #221c19;
+    color: #b9bfca;
     padding: 1vh 1vw;
     display: flex;
     flex-direction: row;
@@ -105,7 +105,7 @@ footer{
 }
 
 footer a{
-    color: rebeccapurple;
+    color: #b9bfca ;
 }
 
 /* smaller screens */
@@ -146,11 +146,12 @@ footer a{
     }
     main p{
         margin: 2% 2%;
+        color: #2e2e2e;
     }
     #home-title {
         text-align: Left;
-        color: indigo;
-        
+        color: #192236;
+
     }
     #arch {
         width: 100%;
