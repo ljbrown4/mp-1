@@ -71,7 +71,7 @@ main {
     flex-direction: column;
     background-color: #1b1b1b;
 }
-h4 {
+h3 {
     text-align: left;
     color: #b9bfca;
     margin: 0 2vw;
@@ -81,8 +81,8 @@ main p{
     font-size: calc(1px + 0.98vw);
     color: whitesmoke;
     font-weight: lighter;
-    margin-top: 1vh;
-    margin-bottom: 1vh;
+    margin-top: 1.5vh;
+    margin-bottom: 1.5vh;
     margin-left: 2vw;
 }
 footer{
