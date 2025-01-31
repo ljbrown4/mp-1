@@ -4,6 +4,7 @@
 }
 body {
     font-family: sans-serif, Arial, Helvetica;
+    line-height: 1.6;
 }
 /*Centering the page*/
 #wrapper{
@@ -39,6 +40,7 @@ nav ul{
     text-align: center;
     background-color: #373737;
     color: whitesmoke;
+    list-style: none;
 }
 nav li{
     color: whitesmoke;
@@ -50,6 +52,9 @@ nav li{
 }
 nav a{
     text-decoration: none;
+    color: whitesmoke;
+    font-weight: bold;
+
 }
 /*main section for desktop */
 main {
@@ -99,7 +104,7 @@ footer{
     justify-content: space-evenly;
 }
 
-#time-date{
+#date {
     width: 25%;
     display: flex;
     flex-direction: row;
@@ -128,7 +133,6 @@ footer a{
         display: flex;
         flex-direction: row;
         justify-content: space-evenly;
-        list-style: none;
         padding-left: 0;
         color: whitesmoke;
     }
@@ -139,22 +143,21 @@ footer a{
         padding: .5% .5%;
         margin: .5% .5%;
     }
-    nav a{
-        text-decoration: none;
-        /*font-weight: bold;*/
-    }
     main{
         width: 100%;
         display: flex;
         flex-direction: column;
-        height: 100vh;
+        height: auto;
     }
     main p{
         margin: 2% 2%;
-        color: #0c0908;
+        color: whitesmoke;
     }
     .nav2 {
         font-weight: bold;
+    }
+    #this-page {
+        color: #b9bfca;
     }
     #home-title {
         text-align: Left;
