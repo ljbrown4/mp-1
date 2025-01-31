@@ -29,7 +29,7 @@ header{
     background-color: #1c1b1b;
 }
 nav {
-    width: 15%
+    width: 20%
 }
 
 nav ul{
@@ -41,6 +41,7 @@ nav ul{
     background-color: #373737;
     color: whitesmoke;
     list-style: none;
+    gap: 5px /* i didn't like how far apart they were*/
 }
 nav li{
     color: whitesmoke;
@@ -58,7 +59,7 @@ nav a{
 }
 /*main section for desktop */
 main {
-    width: 85%;
+    width: 80%;
     display: flex;
     flex-direction: column;
     background-color: #1b1b1b;
