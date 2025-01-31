@@ -69,7 +69,21 @@ main p{
     color: whitesmoke;
     font-weight: lighter;
 }
-
+main ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+}
+.links a{
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    color: #b9bfca;
+    font-size: calc(2px + 1.5vw);
+}
+#contact {
+    color: whitesmoke;
+}
 #home-title {
     margin: 2vw 0;
     text-align: center;
