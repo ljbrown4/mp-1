@@ -37,7 +37,7 @@ nav ul{
     justify-content: space-evenly;
     font-size: calc(2px + 1.2vw);
     text-align: center;
-    background-color: whitesmoke;
+    background-color: #373737;
 }
 nav li{
     display: flex;
@@ -55,7 +55,7 @@ main {
     width: 80%;
     display: flex;
     flex-direction: column;
-    background-color: #1c1b1b;
+    background-color: #131313;
 }
 main p{
     margin: 0 1vw;
@@ -139,6 +139,7 @@ footer a{
     }
     nav a{
         text-decoration: none;
+        font-weight: bold;
     }
     main{
         width: 100%;
