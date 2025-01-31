@@ -97,8 +97,9 @@ main p{
     margin-left: 2vw;
 }
 #col2 {
-    margin: 1vh ;
-    width: 50%
+    margin: auto;
+    width: 50%;
+    align-items : center;
 }
 #img {
     max-width: 100%;
