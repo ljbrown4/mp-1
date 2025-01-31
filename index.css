@@ -65,7 +65,7 @@ main {
 }
 main p{
     margin: 0 1vw;
-    font-size: calc(2px + 1.2vw);
+    font-size: calc(1px + 1.2vw);
     color: whitesmoke;
     font-weight: lighter;
 }
