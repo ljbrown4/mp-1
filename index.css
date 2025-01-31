@@ -177,7 +177,8 @@ footer a{
         max-width: 100%;
         border-radius: 50%; /*makes image into a circle */
     }
-    #col-image p {
+    #col-image p, h4 {
+        align-items: center;
         text-align: center;
         color: whitesmoke;
     }
