@@ -171,11 +171,15 @@ footer a{
         list-style: none;
         justify-content: space-evenly;
     }
-    main li {
+    .links {
+        text-decoration: none;
         display: flex;
         flex-direction: column;
         color: #b9bfca;
         font-size: calc(2px + 1.5vw);
+    }
+    main h2 {
+        color: whitesmoke;
     }
     .nav2 {
         font-weight: bold;
