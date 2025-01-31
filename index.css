@@ -13,7 +13,7 @@ header{
     display: flex;
     flex-direction: column;
     padding: 1vh 1vw;
-    background-color: lavender;
+    background-color: thistle;
     color: rebeccapurple;
     text-align: center;
 }
@@ -35,7 +35,7 @@ nav ul{
     justify-content: space-evenly;
     font-size: calc(2px + 1.2vw);
     text-align: center;
-    background-color: thistle;
+    background-color: mediumpurple;
 }
 nav li{
     display: flex;
