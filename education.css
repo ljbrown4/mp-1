@@ -78,7 +78,9 @@ main {
     justify-content: center;
 }
 #col1 {
-    width: 60%;
+    align-self: center;
+    width: 100%;
+    margin: 1vh 1vw;
 }
 h3 {
     text-align: left;
@@ -95,7 +97,7 @@ main p{
     margin-left: 2vw;
 }
 #col2 {
-    width: 40%;
+    margin: 1vh auto;
 }
 #img {
     max-width: 100%;
