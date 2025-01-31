@@ -25,7 +25,7 @@ header{
     display: flex;
     flex-direction: row;
     position: relative;
-    background-color: #302f2f;
+    background-color: #1c1b1b;
 }
 nav {
     width: 20%
@@ -37,11 +37,11 @@ nav ul{
     justify-content: space-evenly;
     font-size: calc(2px + 1.2vw);
     text-align: center;
-    background-color: darkgray;
+    background-color: whitesmoke;
 }
 nav li{
     display: flex;
-    color: #b9bfca;
+    color: #0c0908;
     width: 80%;
     height: 56%;
     font-size: calc(2px + 1.2vw);
@@ -55,18 +55,19 @@ main {
     width: 80%;
     display: flex;
     flex-direction: column;
-    background-color: snow;
+    background-color: #1c1b1b;
 }
 main p{
     margin: 0 1vw;
     font-size: calc(2px + 1.2vw);
+    color: whitesmoke;
 }
 
 #home-title {
     margin: 2vw 0;
     text-align: center;
     font-size: calc(10px + 2vw);
-    color: #192236;
+    color: #b9bfca;
 }
 /*2nd 2 columns starts */
 #arch {
@@ -131,7 +132,7 @@ footer a{
     }
     nav li{
         display: flex;
-        color: indigo;
+        color: whitesmoke;
         font-size: calc(3px + 1.5vw);
         padding: 1% .5%;
         margin: 1% .5%;
