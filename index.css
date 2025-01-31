@@ -143,6 +143,9 @@ footer{
 footer a{
     color: #b9bfca ;
 }
+#this-page {
+    text-decoration: underline;
+}
 
 /* smaller screens */
 @media screen and (max-width: 800px) {

@@ -56,3 +56,25 @@ nav a{
     font-weight: bold;
 
 }
+#this-page {
+    text-decoration: underline;
+}
+#education-title {
+    margin: 2vw 0;
+    text-align: center;
+    font-size: calc(10px + 2vw);
+    color: #b9bfca;
+}
+h4 {
+    text-align: center;
+    color: #b9bfca;
+    margin: 0 2vw;
+}
+main p{
+    /*margin: 0 1vw;*/
+    font-size: calc(1px + 0.98vw);
+    color: whitesmoke;
+    font-weight: lighter;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+}
