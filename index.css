@@ -41,7 +41,6 @@ nav ul{
     background-color: #373737;
     color: whitesmoke;
     list-style: none;
-    gap: 5px /* i didn't like how far apart they were*/
 }
 nav li{
     color: whitesmoke;
@@ -161,8 +160,8 @@ footer a{
         color: #b9bfca;
     }
     #home-title {
-        text-align: Left;
-        color: #192236;
+        text-align: center;
+        color: whitesmoke;
 
     }
     #arch {
