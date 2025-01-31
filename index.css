@@ -65,7 +65,7 @@ main {
 }
 main p{
     margin: 0 1vw;
-    font-size: calc(1px + 0.9vw);
+    font-size: calc(1px + 0.98vw);
     color: whitesmoke;
     font-weight: lighter;
 }
@@ -161,9 +161,21 @@ footer a{
         flex-direction: column;
         height: auto;
     }
-    main p{
+    main p {
         margin: 2% 2%;
         color: whitesmoke;
+        font-size: calc(2px + 1.5vw);
+    }
+    main ul {
+        display: flex;
+        list-style: none;
+        justify-content: space-evenly;
+    }
+    main li {
+        display: flex;
+        flex-direction: column;
+        color: #b9bfca;
+        font-size: calc(2px + 1.5vw);
     }
     .nav2 {
         font-weight: bold;
