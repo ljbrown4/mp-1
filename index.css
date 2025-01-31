@@ -38,15 +38,15 @@ nav ul{
     font-size: calc(2px + 1.2vw);
     text-align: center;
     background-color: #373737;
+    color: whitesmoke;
 }
 nav li{
     display: flex;
     color: whitesmoke;
     width: 80%;
-    height: 56%;
+    height: 40%;
     font-size: calc(2px + 1.2vw);
     margin: 5vh auto;
-    height: 50vh;
 }
 nav a{
     text-decoration: none;
@@ -130,6 +130,7 @@ footer a{
         justify-content: space-evenly;
         list-style: none;
         padding-left: 0;
+        color: whitesmoke;
     }
     nav li{
         display: flex;
