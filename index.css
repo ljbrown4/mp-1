@@ -64,10 +64,12 @@ main {
     background-color: #1b1b1b;
 }
 main p{
-    margin: 0 1vw;
+    /*margin: 0 1vw;*/
     font-size: calc(1px + 0.98vw);
     color: whitesmoke;
     font-weight: lighter;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
 }
 main ul {
     display: flex;
