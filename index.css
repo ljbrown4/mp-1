@@ -136,12 +136,12 @@ footer a{
         display: flex;
         color: whitesmoke;
         font-size: calc(3px + 1.5vw);
-        padding: 1% .5%;
-        margin: 1% .5%;
+        padding: .5% .5%;
+        margin: .5% .5%;
     }
     nav a{
         text-decoration: none;
-        font-weight: bold;
+        /*font-weight: bold;*/
     }
     main{
         width: 100%;
@@ -152,6 +152,9 @@ footer a{
     main p{
         margin: 2% 2%;
         color: #0c0908;
+    }
+    .nav2 {
+        font-weight: bold;
     }
     #home-title {
         text-align: Left;
