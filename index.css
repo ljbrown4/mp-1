@@ -41,11 +41,12 @@ nav ul{
 }
 nav li{
     display: flex;
-    color: #0c0908;
+    color: whitesmoke;
     width: 80%;
     height: 56%;
     font-size: calc(2px + 1.2vw);
     margin: 5vh auto;
+    height: 50vh;
 }
 nav a{
     text-decoration: none;
@@ -55,7 +56,7 @@ main {
     width: 80%;
     display: flex;
     flex-direction: column;
-    background-color: #131313;
+    background-color: #1b1b1b;
 }
 main p{
     margin: 0 1vw;
