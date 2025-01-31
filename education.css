@@ -78,7 +78,6 @@ main {
     justify-content: center;
 }
 #col1 {
-    align-self: center;
     width: 60%;
     margin: 1vh 1vw;
 }
