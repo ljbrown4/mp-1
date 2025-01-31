@@ -79,7 +79,7 @@ main {
     padding: 2vh 2vw;
 }
 #col1 {
-    width: 60%;
+    width: 50%;
     margin: 1vh 1vw;
 }
 h3 {
@@ -97,8 +97,8 @@ main p{
     margin-left: 2vw;
 }
 #col2 {
-    margin: 1vh 1vw;
-    width: 40%
+    margin: 1vh ;
+    width: 50%
 }
 #img {
     max-width: 100%;
