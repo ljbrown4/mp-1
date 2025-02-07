@@ -95,7 +95,7 @@ h3 {
 .projects {
     text-align: left;
     color: #b9bfca;
-    margin: 1.5vh 2vw 0;
+    margin: 2vw 0;
 }
 .proj-link {
     display: block;
@@ -112,6 +112,7 @@ h3 {
     font-weight: lighter;
     margin-top: 1vh;
     margin-left: 2vw;
+    text-align: center;
 }
 /*#margin {
     width: 100%;
