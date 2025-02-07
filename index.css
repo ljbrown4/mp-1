@@ -238,6 +238,7 @@ footer a{
     }
     #img {
         max-width: 75%;
+        align-self: center; /* centers images */
         border-radius: 50%; /*makes image into a circle */
     }
     #col-image {
