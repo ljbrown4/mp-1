@@ -79,7 +79,7 @@ function power() {
     if (pow2 < 0) { //to accommodate for negative powers
         ans = 1 / ans;
     }
-    if (pow1 === 0) {
+    if (pow2 === 0) { // anything to the 0 power equals 1
         ans = 1;
     }
     document.getElementById('result').innerHTML = String(ans);
