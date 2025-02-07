@@ -26,11 +26,11 @@ header{
     display: flex;
     flex-direction: row;
     position: relative;
-    background-color: #1c1b1b;
+    background-color: #373737;
 }
 nav {
     width: 20%;
-    height: 100vh;
+    height: 50%;
 }
 
 nav ul{
@@ -42,7 +42,7 @@ nav ul{
     background-color: #373737;
     color: whitesmoke;
     list-style: none;
-    height: 100vh;
+    height: 50vh;
 }
 nav li{
     color: whitesmoke;
@@ -50,7 +50,7 @@ nav li{
     width: 80%;
     height: 40%;
     font-size: calc(2px + 1.2vw);
-    margin: 5vh auto;
+    margin: 3vh auto;
 }
 nav a{
     text-decoration: none;
