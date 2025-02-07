@@ -238,8 +238,10 @@ footer a{
     }
     #col-image {
         margin: auto;
+        max-width: 85%;
     }
     #img {
+        width: 75%
         max-width: 100%;
         border-radius: 50%; /*makes image into a circle */
     }
