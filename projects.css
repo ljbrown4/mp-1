@@ -264,6 +264,7 @@ button {
     .project-description {
         font-size: calc(7px + 2.1vw);
         text-align: center;
+        margin: 2%;
     }
     .projects {
         text-align: center;
