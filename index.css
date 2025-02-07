@@ -86,7 +86,7 @@ main ul {
     font-size: calc(2px + 1.5vw);
 }
 #contact {
-    color: whitesmoke;
+    color: #93a6c5;
 }
 #home-title {
     margin: 2vw 0;
@@ -207,13 +207,14 @@ footer a{
         display: flex;
         flex-direction: column;
         color: #b9bfca;
-        font-size: calc(12px + 1.5vw);
+        font-size: calc(12px + 1.6vw);
 
     }
     #contact {
-        color: whitesmoke;
+        font-size: calc(14px + 1.6vw);
         align-items: center;
         text-align: center;
+        padding-top: 2vh;
     }
     .nav2 {
         font-weight: bold;
