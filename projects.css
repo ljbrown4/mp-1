@@ -150,6 +150,7 @@ footer a{
 input {
     border-color: #8a728a;
     border-radius: 5px;
+    font-weight: bold;
 }
 label {
     color: #3a2c3a;
@@ -171,6 +172,7 @@ label {
     align-items: center;
     justify-content: center;
     margin: 0 auto;
+    font-weight: bold;
 }
 button {
     background-color: lavender;
@@ -181,6 +183,13 @@ button {
     border-radius: 50px;
 }
 @media screen and (max-width: 1000px) {
+    /*calculator */
+    button {
+        font-size: calc(4px + 1.2vw);
+    }
+    input {
+        font-size: calc(4px + 1.2vw);
+    }
     header {
         align-items: center;
     }
