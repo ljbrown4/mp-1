@@ -167,7 +167,7 @@ footer a{
     }
     #container{
         width: 100%;
-        margin: 0 auto;
+        padding-left: 1vw;
         display: flex;
         flex-direction: column;
     }
@@ -199,7 +199,7 @@ footer a{
         min-height: 100vh;
     }
     main p {
-        margin: 2% 2%;
+        margin: 2%;
         color: whitesmoke;
         font-size: calc(7px + 2.1vw);
         padding: 2vh 3vh;
