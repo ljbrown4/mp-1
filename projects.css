@@ -20,7 +20,7 @@ header{
     color: #b9bfca;
     text-align: left;
 }
-/* first 2 columns start */
+/* 2 columns start */
 #container {
     width: 100%;
     display: flex;
@@ -59,10 +59,10 @@ nav a{
 #this-page {
     text-decoration: underline;
 }
-#education-title {
+#project-title {
     margin: 2vw 0;
     text-align: center;
-    font-size: calc(10px + 2vw);
+    font-size: calc(8px + 2vw);
     color: #b9bfca;
 }
 main {
@@ -79,33 +79,49 @@ main {
     padding: 2vh 2vw;
 }
 #col1 {
-    width: 40%;
+     width: 50%;
+     margin: 1vh 1vw;
+ }
+#col2 {
+    width: 50%;
     margin: 1vh 1vw;
 }
-h3 {
+#calc-section {
+    width: 100%;
+    text-align: center;
+    margin-top: 2vh;
+    padding: 2vh 2vw;
+    background-color: #222;
+    display: block;
+}
+.projects {
     text-align: left;
     color: #b9bfca;
-    margin: 0 2vw;
+    display: inline;
+    margin: 1.5vh 2vw 0;
 }
-main p{
-    /*margin: 0 1vw;*/
+.proj-link {
+    display: block;
+    text-decoration: underline;
+    color: whitesmoke;
+    font-size: calc(1px + 0.98vw);
+    font-weight: lighter;
+    margin-left: 2vw;
+}
+.project-description {
     font-size: calc(1px + 0.98vw);
     color: whitesmoke;
     font-weight: lighter;
-    margin-top: 1.5vh;
-    margin-bottom: 1.5vh;
+    margin-top: 1vh;
     margin-left: 2vw;
 }
-#col2 {
-    margin: auto;
-    width: 60%;
-    align-items : center;
-}
-#img {
-    display: block;
-    align-items: center;
-    max-width: 100%;
-}
+/*#margin {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 2vh 2vw;
+}*/
+
 footer{
     background-color: black ;
     color: #b9bfca;
@@ -116,64 +132,4 @@ footer{
 }
 footer a{
     color: #b9bfca ;
-}
-/* for smaller screens */
-@media screen and (max-width: 800px){
-    header{
-        align-items: center;
-    }
-    #container{
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-    }
-    nav {
-        width: 100%;
-    }
-    nav ul{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-evenly;
-        padding-left: 0;
-        color: whitesmoke;
-    }
-    nav li{
-        display: flex;
-        color: whitesmoke;
-        font-size: calc(3px + 1.5vw);
-        padding: .5% .5%;
-        margin: .5% .5%;
-    }
-    main{
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        height: 100vh;
-    }
-    #arch {
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    }
-    #col2 {
-        width: 100%;
-        margin: 1vh auto;
-    }
-    #col1 {
-        width: 100%;
-        align-self: center;
-        width: 100%;
-        margin: 1vh 1vw;
-    }
-    main p {
-        margin: 2% 6%;
-        color: whitesmoke;
-        font-size: calc(3px + 1.5vw);
-        align-items: center;
-    }
-    h3 {
-        text-align: center;
-
-    }
 }
