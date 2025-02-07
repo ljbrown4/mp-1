@@ -228,7 +228,7 @@ footer a{
     #home-title {
         text-align: center;
         color: #8298bd;
-
+        font-size: calc(18px + 2.1vw);
     }
     #arch {
         width: 100%;

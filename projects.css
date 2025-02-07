@@ -200,7 +200,9 @@ button {
     header {
         align-items: center;
     }
-
+    #project-title {
+        font-size: calc(18px + 2.1vw);
+    }
     #container {
         width: 100%;
         display: flex;
@@ -266,5 +268,6 @@ button {
     .projects {
         text-align: center;
         font-size: calc(14px + 2.1vw);
+        padding: 1vh;
     }
 }

@@ -112,6 +112,9 @@ footer a{
     font-weight: bold;
 }
 @media screen and (max-width: 1000px) {
+    #org-title {
+        font-size: calc(18px + 2.1vw);
+    }
     header {
         align-items: center;
     }
