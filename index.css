@@ -237,7 +237,7 @@ footer a{
         justify-content: center;
     }
     #img {
-        max-width: 100%;
+        max-width: 75%;
         border-radius: 50%; /*makes image into a circle */
     }
     #col-image {
