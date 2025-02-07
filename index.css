@@ -214,7 +214,8 @@ footer a{
         display: flex;
         flex-direction: column;
         color: #b9bfca;
-        font-size: calc(12px + 1.6vw);
+        margin: 2%;
+        font-size: calc(12px + 1.9vw);
 
     }
     #contact {
@@ -244,7 +245,7 @@ footer a{
         margin: 2%;
     }
     #img {
-        margin: auto;
+        margin: 2%;
         max-width: 100%;
         border-radius: 50%; /*makes image into a circle */
     }
