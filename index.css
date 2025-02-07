@@ -194,6 +194,7 @@ footer a{
         margin: 2% 2%;
         color: whitesmoke;
         font-size: calc(7px + 2.1vw);
+        padding: 3vh 4vh;
     }
     main ul {
         display: flex;
