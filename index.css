@@ -113,12 +113,14 @@ main ul {
 #col-image h4 {
     align-items: center;
     text-align: center;
-    color: whitesmoke;
+    color: #93a6c5;
+    font-size: calc(5px + 1.3vw);
 }
 #col-image h5 {
     align-items: center;
     text-align: center;
     color: whitesmoke;
+    font-size: calc(3px + 1.3vw);
 }
 #col-about-me {
     align-self: center;
@@ -237,7 +239,8 @@ footer a{
         justify-content: center;
     }
     #col-image {
-        max-width: 100%;
+        width: 100%;
+        
     }
     #img {
         margin: auto;
