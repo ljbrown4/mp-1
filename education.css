@@ -126,7 +126,7 @@ footer a{
     font-weight: bold;
 }
 /* for smaller screens */
-@media screen and (max-width: 800px){
+@media screen and (max-width: 1000px){
     header {
         align-items: center;
     }
