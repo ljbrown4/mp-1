@@ -79,7 +79,10 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 2vh 2vw;
+    padding: 1vh 2vw;
+}
+#separator {
+    margin: 2vh 1vw;
 }
 h3 {
     color: #b9bfca;
@@ -156,7 +159,7 @@ footer a{
 
     h3 {
         text-align: center;
-        font-size: calc(14px + 2.1vw);
+        font-size: calc(12px + 2.1vw);
     }
     main p {
         margin: 2% 6%;
