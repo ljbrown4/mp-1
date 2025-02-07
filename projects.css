@@ -150,6 +150,8 @@ footer a{
 input {
     border-color: #8a728a;
     border-radius: 5px;
+    color: #6c576c;
+    background-color: lavender;
     font-weight: bold;
 }
 label {
@@ -164,7 +166,7 @@ label {
     height: 40px;
     background-color: lavender;
     padding: 2px 10px;
-    color:  #8a728a;
+    color: #6c576c;
     border: 2px solid #3a2c3a;
     border-radius: 5px;
     text-align: center;
@@ -189,6 +191,8 @@ button {
     }
     input {
         font-size: calc(6px + 1.9vw);
+        margin: auto;
+        padding: 0;
     }
     #result {
         font-size: calc(8px + 1.9vw);
