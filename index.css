@@ -3,7 +3,7 @@
     box-sizing: border-box;
 }
 body {
-    font-family: sans-serif, Arial, Helvetica;
+    font-family: Lato, sans-serif, Arial, Helvetica;
     line-height: 1.6;
 }
 /*Centering the page*/
@@ -42,7 +42,7 @@ nav ul{
     background-color: #373737;
     color: whitesmoke;
     list-style: none;
-    height: 100vh;
+    height: 50vh;
 }
 nav li{
     color: whitesmoke;
@@ -162,6 +162,9 @@ footer a{
     header{
         align-items: center;
     }
+    #home-title {
+        font-size: calc(18px + 2.1vw);
+    }
     #container{
         width: 100%;
         display: flex;
@@ -259,4 +262,5 @@ footer a{
         width: 100%;
         margin: 1vh 1vw;
     }
+
 }

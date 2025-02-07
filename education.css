@@ -130,6 +130,9 @@ footer a{
     header {
         align-items: center;
     }
+    #education-title {
+        font-size: calc(18px + 2.1vw);
+    }
     #container{
         width: 100%;
         display: flex;
