@@ -204,7 +204,7 @@ button {
         height: auto;
     }
     #calc-section {
-        max-height: 60%;
+        max-height: 100%;
     }
     nav ul {
         padding: 1vh 1vw;
