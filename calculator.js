@@ -12,7 +12,7 @@ function addition() {
     if (ans < 0) {
         document.getElementById('result').style.color = 'red';
     }else {
-        document.getElementById('result').style.color = '#8a728a'; //reset color back to original 
+        document.getElementById('result').style.color = '#8a728a'; //reset color back to original
     }
 }
 function sub() {
