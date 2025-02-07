@@ -215,7 +215,7 @@ footer a{
 
     }
     #contact {
-        font-size: calc(14px + 1.6vw);
+        font-size: calc(18px + 1.6vw);
         padding-top: 2vh;
     }
     .nav2 {
@@ -246,7 +246,7 @@ footer a{
         align-items: center;
         text-align: center;
         color: whitesmoke;
-        font-size: calc(11px + 1.7vw);
+        font-size: calc(14px + 1.7vw);
     }
     #col-image h5 {
         align-items: center;
