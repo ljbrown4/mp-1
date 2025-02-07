@@ -42,15 +42,14 @@ nav ul{
     background-color: #373737;
     color: whitesmoke;
     list-style: none;
-    height: 50vh;
+    height: 100vh;
 }
 nav li{
     color: whitesmoke;
     display: flex;
     width: 80%;
-    height: 40%;
     font-size: calc(2px + 1.2vw);
-    margin: 5vh auto;
+    margin: 3vh auto;
 }
 nav a{
     text-decoration: none;
