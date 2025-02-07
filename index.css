@@ -237,11 +237,10 @@ footer a{
         justify-content: center;
     }
     #col-image {
-        margin: auto;
-        max-width: 85%;
+        max-width: 100%;
     }
     #img {
-        width: 75%
+        margin: auto;
         max-width: 100%;
         border-radius: 50%; /*makes image into a circle */
     }
