@@ -78,7 +78,7 @@ main ul {
     align-items: center;
 }
 .links a{
-    text-decoration: none;
+    text-decoration: underline;
     display: flex;
     flex-direction: column;
     color: #b9bfca;
@@ -202,11 +202,6 @@ footer a{
         align-items: center;
     }
     .links a{
-        text-decoration: none;
-        display: flex;
-        flex-direction: column;
-        color: #b9bfca;
-        margin: 2%;
         font-size: calc(12px + 1.9vw);
     }
     .links {
