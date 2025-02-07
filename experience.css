@@ -42,6 +42,7 @@ nav ul{
     background-color: #373737;
     color: whitesmoke;
     list-style: none;
+    height: 100vh;
 }
 nav li{
     color: whitesmoke;
@@ -127,6 +128,7 @@ footer a{
         flex-direction: row;
         justify-content: space-evenly;
         color: whitesmoke;
+        height: auto;
     }
 
     nav li {

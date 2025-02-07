@@ -42,6 +42,7 @@ nav ul{
     background-color: #373737;
     color: whitesmoke;
     list-style: none;
+    height: 100vh;
 }
 nav li{
     color: whitesmoke;
@@ -210,7 +211,7 @@ button {
         display: flex;
         flex-direction: row;
         justify-content: space-evenly;
-
+        height: auto;
         color: whitesmoke;
     }
 
