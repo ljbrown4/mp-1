@@ -114,13 +114,13 @@ main ul {
     align-items: center;
     text-align: center;
     color: #93a6c5;
-    font-size: calc(5px + 1.3vw);
+    font-size: calc(2px + 1.3vw);
 }
 #col-image h5 {
     align-items: center;
     text-align: center;
     color: whitesmoke;
-    font-size: calc(3px + 1.3vw);
+    font-size: calc(1px + 1.3vw);
 }
 #col-about-me {
     align-self: center;
@@ -167,6 +167,7 @@ footer a{
     }
     #container{
         width: 100%;
+        margin: 0 auto;
         display: flex;
         flex-direction: column;
     }
@@ -240,7 +241,7 @@ footer a{
     }
     #col-image {
         width: 100%;
-        
+
     }
     #img {
         margin: auto;
