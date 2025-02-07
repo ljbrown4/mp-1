@@ -29,7 +29,8 @@ header{
     background-color: #1c1b1b;
 }
 nav {
-    width: 20%
+    width: 20%;
+    height: 100vh;
 }
 
 nav ul{
@@ -180,7 +181,7 @@ label {
 button {
     background-color: lavender;
     border-color: #8a728a;
-    color: #8a728a;
+    color: #3a2c3a;
     font-weight: bold;
     padding: 10px 30px;
     border-radius: 50px;

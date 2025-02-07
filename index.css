@@ -169,7 +169,8 @@ footer a{
         padding: 1vh 1vw;
         display: flex;
         flex-direction: row;
-        justify-content: space-evenly;
+        justify-content: space-between;
+        list-style: none;
         color: whitesmoke;
     }
     nav li{
