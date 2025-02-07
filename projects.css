@@ -78,7 +78,7 @@ main {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    padding: 2vh 2vw;
+    padding: 2vw;
 }
 #col1 {
      width: 50%;
