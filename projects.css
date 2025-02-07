@@ -269,6 +269,6 @@ button {
     .projects {
         text-align: center;
         font-size: calc(14px + 2.1vw);
-
+        margin: 2%;
     }
 }

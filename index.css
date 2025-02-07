@@ -228,10 +228,10 @@ footer a{
         width: 100%;
         display: flex;
         flex-direction: column;
-        justify-content: center;
+        align-items: center;
     }
     #col-image {
-        width: 100%;
+        width: 80%;
     }
     #col-image h4 {
         text-align: center;
@@ -244,10 +244,12 @@ footer a{
         color: whitesmoke;
         font-size: calc(14px + 1.5vw);
     }
+    #img {
+        padding-bottom: 1vh;
+    }
     #col-about-me {
         align-items: center;
         width: 100%;
-
     }
 
 }
