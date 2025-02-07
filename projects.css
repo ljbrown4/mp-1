@@ -185,10 +185,13 @@ button {
 @media screen and (max-width: 1000px) {
     /*calculator */
     button {
-        font-size: calc(4px + 1.2vw);
+        font-size: calc(6px + 1.9vw);
     }
     input {
-        font-size: calc(4px + 1.2vw);
+        font-size: calc(6px + 1.9vw);
+    }
+    #result {
+        font-size: calc(8px + 1.9vw);
     }
     header {
         align-items: center;
