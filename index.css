@@ -199,7 +199,6 @@ footer a{
         min-height: 100vh;
     }
     main p {
-        margin: 2%;
         color: whitesmoke;
         font-size: calc(7px + 2.1vw);
         padding: 2vh 3vh;
@@ -220,7 +219,8 @@ footer a{
     }
     #contact {
         font-size: calc(18px + 1.6vw);
-        padding-top: 2vh;
+        padding-top: 1vh;
+        margin: 2%;
     }
     .nav2 {
         font-weight: bold;
@@ -241,7 +241,7 @@ footer a{
     }
     #col-image {
         width: 100%;
-
+        margin: 2%;
     }
     #img {
         margin: auto;
@@ -251,7 +251,7 @@ footer a{
     #col-image h4 {
         align-items: center;
         text-align: center;
-        color: #93a6c5;;
+        color: #93a6c5;
         font-size: calc(17px + 1.7vw);
     }
     #col-image h5 {
@@ -263,7 +263,8 @@ footer a{
     #col-about-me {
         align-items: center;
         width: 100%;
-        margin: auto;
+        margin: 2%;
+
     }
 
 }
