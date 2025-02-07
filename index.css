@@ -236,32 +236,29 @@ footer a{
         flex-direction: column;
         justify-content: center;
     }
-    #img {
-        max-width: 75%;
-        align-self: center; /* centers images */
-        border-radius: 50%; /*makes image into a circle */
-        padding-left: 5vw;
-    }
     #col-image {
-        width: 100%;
-        align-items: center;
+        margin: auto;
+    }
+    #img {
+        max-width: 100%;
+        border-radius: 50%; /*makes image into a circle */
     }
     #col-image h4 {
         align-items: center;
         text-align: center;
-        color: #93a6c5;
-        font-size: calc(18px + 1.9vw);
+        color: #93a6c5;;
+        font-size: calc(17px + 1.7vw);
     }
     #col-image h5 {
         align-items: center;
         text-align: center;
         color: whitesmoke;
-        font-size: calc(14px + 1.9vw);
+        font-size: calc(14px + 1.5vw);
     }
     #col-about-me {
-        align-self: center;
+        align-items: center;
         width: 100%;
-        margin: 1vh 1vw;
+        margin: auto;
     }
 
 }
