@@ -236,9 +236,6 @@ footer a{
         flex-direction: column;
         justify-content: center;
     }
-    #col-image {
-        margin: auto;
-    }
     #img {
         max-width: 100%;
         border-radius: 50%; /*makes image into a circle */
@@ -247,13 +244,13 @@ footer a{
         align-items: center;
         text-align: center;
         color: whitesmoke;
-        font-size: calc(14px + 1.7vw);
+        font-size: calc(18px + 1.9vw);
     }
     #col-image h5 {
         align-items: center;
         text-align: center;
         color: whitesmoke;
-        font-size: calc(9px + 1.5vw);
+        font-size: calc(14px + 1.9vw);
     }
     #col-about-me {
         align-self: center;
