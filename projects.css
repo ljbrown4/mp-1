@@ -91,8 +91,11 @@ main {
     text-align: center;
     margin-top: 2vh;
     padding: 2vh 2vw;
-    background-color: #222;
+    background-color: #8a8989;
     display: block;
+}
+h3 {
+    text-align: center;
 }
 .projects {
     text-align: left;
@@ -128,6 +131,7 @@ footer{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    margin-top: auto;
 }
 footer a{
     color: #b9bfca ;
@@ -135,6 +139,51 @@ footer a{
 #resume {
     color: lavender;
     font-weight: bold;
+}
+
+/* calculator */
+#calc-section {
+    width: 100%;
+    text-align: center;
+    margin-top: 2vh;
+    padding: 2vh 2vw;
+    background-color: #c5b7d3;
+    display: block;
+    align-items: center;
+    color: #3a2c3a;
+}
+input {
+    border-color: #8a728a;
+    border-radius: 5px;
+}
+label {
+    color: #3a2c3a;
+    font-weight: bold;
+}
+#result-label {
+    display: block;
+}
+#result {
+    width: 80%;
+    height: 40px;
+    background-color: lavender;
+    padding: 2px 10px;
+    #color:  #8a728a;
+    border: 2px solid #3a2c3a;
+    border-radius: 5px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+button {
+    background-color: lavender;
+    border-color: #8a728a;
+    color: #8a728a;
+    font-weight: bold;
+    padding: 10px 30px;
+    border-radius: 50px;
 }
 @media screen and (max-width: 800px) {
     header {
@@ -149,13 +198,17 @@ footer a{
 
     nav {
         width: 100%;
-    }
 
+    }
+    #calc-section {
+        max-height: 60%;
+    }
     nav ul {
+        padding: 1vh 1vw;
         display: flex;
         flex-direction: row;
         justify-content: space-evenly;
-        padding-left: 0;
+
         color: whitesmoke;
     }
 
@@ -190,13 +243,17 @@ footer a{
         width: 100%;
         margin: 1vh 1vw;
     }
-    h3 {
-        text-align: center;
-    }
+
     .project-description, .proj-link {
         margin: 2% 6%;
         color: whitesmoke;
         font-size: calc(4px + 1.5vw);
         align-items: center;
+    }
+    .projects {
+        text-align: center;
+    }
+    main a,p{
+        text-align: center;
     }
 }

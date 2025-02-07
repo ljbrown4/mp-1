@@ -39,10 +39,39 @@
                         <p class = "project-description">Features five main modes: Standard Calculator for basic arithmetic, Scientific Calculator for advanced calculations, Unit Converter for measurement conversions, Tip Calculator for gratuity calculations, and Currency Converter for exchange rate computations.</p>
                     </div>
                 </div>
+
+
+
                 <div id="calc-section">
-                    <h3 class = "projects"> <u><em>JavaScript Calculator</em></u></h3>
-                    <p class = "project-description"> A functional calculator built using JavaScript, designed to handle basic and advanced mathematical operations.</p>
+                    <h3 > C a l c u l a t o r</h3>
+
+                    <br>
+
+                    <label for = "first-number"> Enter First Number:</label>
+                    <input id = "first-number">
+                    <br> <br>
+                    <label for = "second-number"> Enter Second Number:</label>
+                    <input id = "second-number">
+                    <br> <br>
+                    <button id = "add" onclick="add()"> + </button>
+                    <button id = "sub" onclick="sub()"> - </button>
+                    <button id = "mult" onclick="mul()"> * </button>
+                    <button id = "div" onclick="div()"> / </button>
+                    <button id = "power" onclick="power()"> ** </button>
+                    <button id = "clear" onclick="clearentry()"> clear </button>
+                    <p> <br></p>
+                    <label id = "result-label" for = "result">Result:</label>
+                    <div id = "result"></div>
+
+                    <script src="calculator.js"></script>
+
                 </div>
+
+
+
+
+
+
             </main>
         </div>
         <footer>
