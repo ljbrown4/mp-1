@@ -240,9 +240,10 @@ footer a{
         max-width: 75%;
         align-self: center; /* centers images */
         border-radius: 50%; /*makes image into a circle */
+        padding-left: 5vw;
     }
     #col-image {
-        margin: auto;
+        margin: 5vw;
         width: 100%;
         align-items: center;
     }
