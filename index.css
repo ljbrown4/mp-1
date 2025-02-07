@@ -64,7 +64,7 @@ main {
     display: flex;
     flex-direction: column;
     background-color: #1b1b1b;
-    height: 100vh;
+    min-height: 100vh;
 }
 main p{
     font-size: calc(1px + 0.98vw);
@@ -140,6 +140,7 @@ footer{
     flex-direction: row;
     justify-content: space-evenly;
     align-items: baseline;
+    position: relative;
 }
 
 footer a{
@@ -166,7 +167,6 @@ footer a{
     nav {
         width: 100%;
         height: auto;
-
     }
     nav ul{
         padding: 1vh 1vw;
@@ -180,7 +180,7 @@ footer a{
     nav li{
         display: flex;
         color: whitesmoke;
-        font-size: calc(3px + 1.5vw);
+        font-size: calc(4px + 1.7vw);
         padding: .5% .5%;
         margin: .5% .5%;
     }
@@ -188,12 +188,12 @@ footer a{
         width: 100%;
         display: flex;
         flex-direction: column;
-        height: 100vh;
+        min-height: 100vh;
     }
     main p {
         margin: 2% 2%;
         color: whitesmoke;
-        font-size: calc(4px + 1.5vw);
+        font-size: calc(7px + 2.1vw);
     }
     main ul {
         display: flex;
@@ -205,11 +205,12 @@ footer a{
         display: flex;
         flex-direction: column;
         color: #b9bfca;
-        font-size: calc(6px + 1.5vw);
+        font-size: calc(9px + 1.5vw);
 
     }
     #contact {
         color: whitesmoke;
+        align-items: center;
     }
     .nav2 {
         font-weight: bold;
@@ -229,7 +230,7 @@ footer a{
         justify-content: center;
     }
     #col-image {
-        margin: 1vh auto;
+        margin: auto;
     }
     #img {
         max-width: 100%;
@@ -239,11 +240,13 @@ footer a{
         align-items: center;
         text-align: center;
         color: whitesmoke;
+        font-size: calc(11px + 1.7vw);
     }
     #col-image h5 {
         align-items: center;
         text-align: center;
         color: whitesmoke;
+        font-size: calc(9px + 1.5vw);
     }
     #col-about-me {
         align-self: center;
