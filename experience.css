@@ -59,7 +59,7 @@ nav a{
 #this-page {
     text-decoration: underline;
 }
-#org-title {
+#experience-title {
     margin: 2vw 0;
     text-align: center;
     font-size: calc(8px + 2vw);
@@ -86,12 +86,6 @@ main p {
     margin: 3vh 2vh;
 }
 
-/*#margin {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    padding: 2vh 2vw;
-}*/
 
 footer{
     background-color: black ;

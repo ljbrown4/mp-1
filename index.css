@@ -90,7 +90,7 @@ main ul {
     margin: 2vw 0;
     text-align: center;
     font-size: calc(10px + 2vw);
-    color: #b9bfca;
+    color: #8298bd;
 }
 /*2nd 2 columns starts */
 #arch {
@@ -142,6 +142,10 @@ footer{
 
 footer a{
     color: #b9bfca ;
+}
+#resume {
+    color: lavender;
+    font-weight: bold;
 }
 #this-page {
     text-decoration: underline;
@@ -209,7 +213,7 @@ footer a{
     }
     #home-title {
         text-align: center;
-        color: #b9bfca;
+        color: #8298bd;
 
     }
     #arch {
