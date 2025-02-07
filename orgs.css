@@ -20,7 +20,7 @@ header{
     color: #b9bfca;
     text-align: left;
 }
-/* first 2 columns start */
+/* 2 columns start */
 #container {
     width: 100%;
     display: flex;
@@ -59,10 +59,10 @@ nav a{
 #this-page {
     text-decoration: underline;
 }
-#education-title {
+#org-title {
     margin: 2vw 0;
     text-align: center;
-    font-size: calc(10px + 2vw);
+    font-size: calc(8px + 2vw);
     color: #b9bfca;
 }
 main {
@@ -74,38 +74,25 @@ main {
 #arch {
     width: 100%;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     padding: 2vh 2vw;
 }
-#col1 {
-    width: 40%;
-    margin: 1vh 1vw;
-}
 h3 {
-    text-align: left;
     color: #b9bfca;
-    margin: 0 2vw;
 }
-main p{
-    /*margin: 0 1vw;*/
-    font-size: calc(1px + 0.98vw);
+main p {
     color: whitesmoke;
-    font-weight: lighter;
-    margin-top: 1.5vh;
-    margin-bottom: 1.5vh;
-    margin-left: 2vw;
+    margin: 3vh 2vh;
 }
-#col2 {
-    margin: auto;
-    width: 60%;
-    align-items : center;
-}
-#img {
-    display: block;
-    align-items: center;
-    max-width: 100%;
-}
+
+/*#margin {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 2vh 2vw;
+}*/
+
 footer{
     background-color: black ;
     color: #b9bfca;
@@ -117,63 +104,58 @@ footer{
 footer a{
     color: #b9bfca ;
 }
-/* for smaller screens */
-@media screen and (max-width: 800px){
+@media screen and (max-width: 800px) {
     header {
         align-items: center;
     }
-    #container{
+
+    #container {
         width: 100%;
         display: flex;
         flex-direction: column;
     }
+
     nav {
         width: 100%;
     }
-    nav ul{
+
+    nav ul {
         display: flex;
         flex-direction: row;
         justify-content: space-evenly;
         padding-left: 0;
         color: whitesmoke;
     }
-    nav li{
+
+    nav li {
         display: flex;
         color: whitesmoke;
         font-size: calc(3px + 1.5vw);
         padding: .5% .5%;
         margin: .5% .5%;
     }
-    main{
+
+    main {
         width: 100%;
         display: flex;
         flex-direction: column;
         height: 100vh;
     }
+
     #arch {
         width: 100%;
         display: flex;
         flex-direction: column;
         justify-content: center;
     }
-    #col2 {
-        width: 100%;
-        margin: 1vh auto;
-    }
-    #col1 {
-        width: 100%;
-        align-self: center;
-        width: 100%;
-        margin: 1vh 1vw;
+
+    h3 {
+        text-align: center;
     }
     main p {
         margin: 2% 6%;
         color: whitesmoke;
         font-size: calc(4px + 1.5vw);
         align-items: center;
-    }
-    h3 {
-        text-align: center;
-
     }
 }
