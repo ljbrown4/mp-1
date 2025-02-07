@@ -72,7 +72,7 @@ main {
     display: flex;
     flex-direction: column;
     background-color: #1b1b1b;
-    height: 100vh;
+    min-height: 100vh;
 }
 #arch {
     width: 100%;
@@ -147,7 +147,6 @@ footer a{
         width: 100%;
         display: flex;
         flex-direction: column;
-        height: 100vh;
     }
 
     #arch {
