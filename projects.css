@@ -82,11 +82,11 @@ main {
 }
 #col1 {
      width: 45%;
-     margin: 1vh 1vw;
+     margin: 1vw;
  }
 #col2 {
     width: 55%;
-    margin: 1vh 1vw;
+    margin: 1vw;
 }
 
 h3 {
@@ -247,12 +247,12 @@ button {
 
     #col2 {
         width: 100%;
-        margin: 1vh auto;
+        margin: auto;
     }
 
     #col1 {
         width: 100%;
-        margin: 1vh 1vw;
+        margin: 1vw;
     }
 
     .proj-link {
