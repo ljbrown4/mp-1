@@ -241,6 +241,8 @@ footer a{
         border-radius: 50%; /*makes image into a circle */
     }
     #col-image {
+        margin: auto;
+        width: 100%;
         align-items: center;
     }
     #col-image h4 {
